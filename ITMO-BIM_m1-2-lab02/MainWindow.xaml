@@ -11,7 +11,10 @@
             <RowDefinition Height="90"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Text="1234,567" Margin="3" Background="#FFE0F1F0" FontSize="36" TextOptions.TextFormattingMode="Display" HorizontalContentAlignment="Right" VerticalContentAlignment="Bottom"/>
+        <Border BorderThickness="3,3,1,1" BorderBrush="DarkGray" Background="#FFE0F1F0" Margin="2">
+            <TextBlock Name="textBlock" Text="1234,567" FontSize="36" TextAlignment="Right" VerticalAlignment="Bottom"/> 
+        </Border>
+
         <UniformGrid Rows="6" Columns="4" Grid.Row="1" >
             <Button Content="%"/>
             <Button Content="CE"/>

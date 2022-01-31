@@ -23,6 +23,7 @@ namespace ITMO_BIM_m1_2_lab02
         public MainWindow()
         {
             InitializeComponent();
+            textBlock.Text = 12334.567.ToString("N2");
         }
     }
 }
